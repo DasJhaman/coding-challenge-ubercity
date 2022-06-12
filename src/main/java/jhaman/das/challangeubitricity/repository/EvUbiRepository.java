@@ -32,11 +32,11 @@ public class EvUbiRepository {
     }
 
     public void removeFromHigherChargeRate(int n) {
-        fastQueue.remove(n);
+        fastQueue.remove(fastQueue.indexOf(n));
     }
 
     public void removeFromLowerChargeRate(int n) {
-        slowQueue.remove(n);
+        slowQueue.remove(slowQueue.indexOf(n));
     }
 
     public synchronized Map<Integer, String> getUbiStatus() {
