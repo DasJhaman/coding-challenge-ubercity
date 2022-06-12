@@ -47,6 +47,14 @@ CP7 AVAILABLE
 CP10 AVAILABLE
 ```
 
+## Postman Collection:
+```
+**Plug a car for charging** : v1//plug-car/{number}  **HttpMethod**: **POST**
+**Remove a car from charging** : v1//plug-car/{number}  **HttpMethod**: **DELETE**
+**Get Status of EV UBI** : /getUbiStatus  **HttpMethod**: **GET**
+
+```
+
 ## Deliverables:
 Link to the git repository with the implementation and the documentation on how to call the API (Swagger/Postman collection/text description).
 Please add any details about your ideas and considerations to this README and add it to the repository.
