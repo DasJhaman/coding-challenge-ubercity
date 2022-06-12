@@ -47,13 +47,18 @@ CP7 AVAILABLE
 CP10 AVAILABLE
 ```
 
-## Postman Collection:
-```
-**Plug a car for charging** : v1//plug-car/{number}  **HttpMethod**: **POST**
-**Remove a car from charging** : v1//plug-car/{number}  **HttpMethod**: **DELETE**
-**Get Status of EV UBI** : /getUbiStatus  **HttpMethod**: **GET**
+# Postman Collection:
+## Base URL
+`http://localhost:8080/v1/evubi`
+## Swagger URL: 
+`http://localhost:8080/swagger-ui.html#/EV_Ubi_Controller`
 
-```
+## Plug a car for charging
+**POST**   `/plug-car/{number}`
+## Remove a car from charging
+**DELETE**   `/plug-car/{number}`
+## Get Status of EV UBI
+**GET**   `/getUbiStatus`
 
 ## Deliverables:
 Link to the git repository with the implementation and the documentation on how to call the API (Swagger/Postman collection/text description).
